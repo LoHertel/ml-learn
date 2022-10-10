@@ -12,10 +12,13 @@ pandas = "*"
 Flask = "*"
 gunicorn = "*"
 seaborn = "*"
+xgboost = "*"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
+tqdm = "*"
 ipykernel = "*"
 requests = "*"
+ipywidgets = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
